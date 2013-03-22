@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		
+		<script type="text/javascript">
+			var html;
+
+			function start()
+			{
+				html = document.getElementsByTagName('html');
+
+				console.log(html);
+				console.log(html[0].previousSibling);
+				console.log(document.documentElement.nodeName);
+
+				// html[0].onclick = createButton;
+
+				// html[0].addEventListener('click', createButton);
+
+				// setTimeout(createButton, 2000);
+			}
+
+			function createButton()
+			{
+				// html[0].onclick = null;
+
+				html[0].removeEventListener('click', createButton);
+
+				var buttonCreateInput = document.createElement('button');
+				buttonCreateInput.innerHTML = "Create Input";
+				buttonCreateInput.onclick = createInput;
+				buttonCreateInput.setAttribute("id", "buttonCreateInput");
+				
+				insert('body', buttonCreateInput, false);
+			}
+
+			function createInput()
+			{
+				var inputEmailHTML5 = document.createElement('input');
+				inputEmailHTML5.placeholder = "E-Mail";
+				inputEmailHTML5.size = 40;
+				inputEmailHTML5.value = "Valor qualquer";
+				inputEmailHTML5.style.backgroundColor = 'lavender';
+
+				insert('button', inputEmailHTML5, true);
+
+				console.log('value input '+inputEmailHTML5.value);
+				console.log('size input '+inputEmailHTML5.size);
+			}
+
+			function insert(tag, el, before)
+			{
+				var ref = document.getElementsByTagName(tag);
+
+				console.log('element ID '+ref[0].getAttribute('id'));
+
+				if (before)
+					ref[0].parentNode.insertBefore(el, ref[0]);
+				else
+					ref[0].appendChild(el);
+			}
+		</script>
+
+	</head>
+
+	<body>
+
+		<ol>
+			<li>Node</li>
+			<li>HTML <a href="javascript:void(0);" onclick="start()" target="_blank">(start)</a></li>
+			<li>Inserir elementos <a href="javascript:void(0);" onclick="createButton()" target="_blank">(Inserir)</a></li>
+			<li>
+				addListener - document ready sem jquery (Browsers modernos)
+				<ul>
+					<li>
+						<a href="https://developer.mozilla.org/pt-BR/docs/DOM/element.addEventListener" target="_blank">
+							https://developer.mozilla.org/pt-BR/docs/DOM/element.addEventListener
+						</a>
+					</li>
+					<li>
+						<a href="http://stackoverflow.com/questions/799981/document-ready-equivalent-without-jquery" target="_blank">
+							http://stackoverflow.com/questions/799981/document-ready-equivalent-without-jquery
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				Alguns Métodos e Propriedades
+			</li>
+			<li>
+				Referências
+				<ul>
+					<li>
+						<a href="http://www.hebertphp.net/wordpress/?p=570" target="_blank">
+							http://www.hebertphp.net/wordpress/?p=570
+						</a>
+					</li>
+					<li>
+						<a href="http://www.w3schools.com/htmldom/default.asp" target="_blank">
+							http://www.w3schools.com/htmldom/default.asp
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="http://www.w3schools.com/htmldom/dom_examples.asp" target="_blank">
+					Exemplos 1
+				</a>
+			</li>
+			<li>
+				<a href="http://www.w3schools.com/htmldom/dom_examples2.asp" target="_blank">
+					Exemplos 2
+				</a>
+			</li>
+		</ol>
+
+		<hr>
+	
+		<script type="text/javascript">
+
+			document.addEventListener('DOMContentLoaded',function(){
+				// start();
+			});
+
+		</script>
+
+	</body>
+
+</html>
+
+<script type="text/javascript">
+	start();
+</script>
