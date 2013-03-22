@@ -169,8 +169,8 @@ Permite selecionar semana e ano.
 # Exemplos com código
 
 #### Códigos
-1. DOM  
-2. javascript
+1. [DOM][code-dir-dom]  
+2. [javascript][code-dir-javascript]
 
 [1]: http://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element
 [2]: http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_section
@@ -213,4 +213,5 @@ Permite selecionar semana e ano.
 [39]: http://www.w3schools.com/tags/
 [40]: http://www.mestreseo.com.br/seo/html-5-seo
 [41]: http://tableless.com.br/section-elemento-article/
-
+[code-dir-dom]: https://github.com/PlanBCom/front-end-estudos/tree/master/dom
+[code-dir-javascript]: https://github.com/PlanBCom/front-end-estudos/tree/master/javascript
