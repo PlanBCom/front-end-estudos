@@ -172,7 +172,7 @@ Permite selecionar semana e ano.
 1. [DOM][code-dir-dom]  
 2. [javascript][code-dir-javascript]
 
-[1]: http://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element
+[1 target = "_blank"]: http://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element
 [2]: http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_section
 [3]: http://www.w3.org/html/wg/drafts/html/master/grouping-content.html#the-main-element
 [4]: http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_aside
