@@ -18,6 +18,6 @@ Para criar esse [boilerplate][boilerplate-planb], começamos por estudar as nova
 [jquery]: http://jquery.com/
 [code-dir-dom]: https://github.com/PlanBCom/front-end-estudos/tree/master/dom
 [code-dir-javascript]: https://github.com/PlanBCom/front-end-estudos/tree/master/javascript
-[code-dir-html5]: https://github.com/PlanBCom/front-end-estudos/tree/master/html5
+[code-dir-html5]: https://github.com/PlanBCom/front-end-estudos/tree/master/HTML5
 [code-dir-dom]: https://github.com/PlanBCom/front-end-estudos/tree/master/dom
 [code-dir-javascript]: https://github.com/PlanBCom/front-end-estudos/tree/master/javascript
