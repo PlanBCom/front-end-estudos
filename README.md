@@ -1,6 +1,21 @@
+O grupo de front-end da Plan B, está se reunindo frequemente para alinhar o conhecimento e estudar novas tecnologias da área. Inicialmente, criamos um [boilerplate][boilerplate-planb] em [HTML5][html5] com [meta tags do Facebook][meta-tags-facebook], [apple-touch-icon-precomposed][apple-touch], [modernizr][modernizr] e [JQuery][jquery].   
+Para criar esse [boilerplate][boilerplate-planb], começamos por estudar as novas tags [HTML5][html5], manipulação de [DOM][code-dir-dom] e [javascript (sem o uso de JQuery para manipular o DOM)][code-dir-javascript].    
+
+**Veja como ficou nossa resumida pesquisa:**
+***
+
+[boilerplate-planb]: https://github.com/PlanBCom/html5-boilerplate
+[html5]: http://www.w3c.br/Home/WebHome
+[meta-tags-facebook]: https://developers.facebook.com/docs/opengraphprotocol/
+[apple-touch]: http://developer.apple.com/library/ios/#documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html
+[modernizr]: http://modernizr.com/
+[jquery]: http://jquery.com/
+[code-dir-dom]: https://github.com/PlanBCom/front-end-estudos/tree/master/dom
+[code-dir-javascript]: https://github.com/PlanBCom/front-end-estudos/tree/master/javascript
+
 # HTML5
 ## Novos elementos de semântica e estrutura:
-***
+
   
 `<article>`   
 Representa uma seção de conteúdo importante do site, que forma uma parte independente do documento Esta tag é provavelmente a melhor adição do ponto de vista de SEO, pois deve ser usada para marcar o conteúdo de blogs, revistas e jornais online ou de qualquer conteúdo nesse sentido. Ela visa facilitar que Search Engines identifiquem onde, de fato, está o conteúdo de uma página. De acordo com vários especialistas, o conteúdo que estiver dentro desta tag provavelmente terá peso maior para os motores de busca.  
@@ -69,9 +84,10 @@ Definir data/tempo.
 `<wbr>`	  
 O elemento wbr representa uma oportunidade de quebra de linha.  
 [Exemplo(exceto:ie)][17]  
-  
+
+***    
 ## Novos elementos de mídia:
-***  
+
 `<audio>`   
 Representa um stream de audio.   
 [Exemplo: (exceto:ie8-)][18]
@@ -94,9 +110,10 @@ O elemento embed representa um ponto de integração para conteúdo externo.
 Criar gráficos, composições de fotos e animações usando JavaScript  
 [Exemplo 1: (exceto:ie8-)][22]  
 [Exemplo 2: (poder do canvas)][23]  
-  
-## Novos elementos de formulário:
+
 ***  
+## Novos elementos de formulário:
+
   
 `<datalist>`  
 Input com opções pré definidas.  
@@ -155,8 +172,8 @@ Seleciona tempo (hh:mm)
 Permite selecionar semana e ano.  
 [Exemplo: (ch, sa, po)][35]
 
+***  
 ### Referências
-***
 
 [http://dev.w3.org/html5/markup/][36]  
 [http://www.w3.org/html/wg/drafts/html/master/][37]  
@@ -166,11 +183,13 @@ Permite selecionar semana e ano.
 [http://tableless.com.br/section-elemento-article/][41]
 
 ***
-# Exemplos com código
+# Estudo sobre DOM e javacript  
 
-#### Códigos
 1. [DOM][code-dir-dom]  
 2. [javascript][code-dir-javascript]
+
+[code-dir-dom]: https://github.com/PlanBCom/front-end-estudos/tree/master/dom
+[code-dir-javascript]: https://github.com/PlanBCom/front-end-estudos/tree/master/javascript
 
 [1]: http://www.w3.org/html/wg/drafts/html/master/sections.html#the-article-element
 [2]: http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_section
@@ -213,5 +232,3 @@ Permite selecionar semana e ano.
 [39]: http://www.w3schools.com/tags/
 [40]: http://www.mestreseo.com.br/seo/html-5-seo
 [41]: http://tableless.com.br/section-elemento-article/
-[code-dir-dom]: https://github.com/PlanBCom/front-end-estudos/tree/master/dom
-[code-dir-javascript]: https://github.com/PlanBCom/front-end-estudos/tree/master/javascript
