@@ -50,7 +50,7 @@ Destina-se a marcar o cabeçalho ou a legenda para uma figura.
 [Exemplo: (exceto:ie8-)][8]  
   
 `<footer>`   
-O elemento footer representa o rodapé para a seção que se aplica.
+O elemento footer representa o rodapé para a seção que se aplica  
 [Exemplo(exceto:ie8-).][9]
 
 `<header>`   
